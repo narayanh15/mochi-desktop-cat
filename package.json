@@ -1,0 +1,41 @@
+{
+  "name": "mochi-desktop-cat",
+  "version": "0.1.0",
+  "description": "A tiny interactive desktop cat that keeps you company while you work.",
+  "main": "main.cjs",
+  "author": "Mochi's human",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis"
+  },
+  "build": {
+    "appId": "com.mochi.desktopcat",
+    "productName": "Mochi Desktop Cat",
+    "asar": true,
+    "files": [
+      "index.html",
+      "styles.css",
+      "app.js",
+      "main.cjs",
+      "preload.cjs",
+      "assets/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "Mochi Desktop Cat"
+    }
+  },
+  "devDependencies": {
+    "electron": "^37.2.0",
+    "electron-builder": "^26.0.12"
+  }
+}

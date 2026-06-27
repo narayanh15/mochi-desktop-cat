@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mochi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="stage" id="stage" data-corner="bottom-right" aria-label="Mochi the pixel cat">
+      <div class="speech" id="speech" role="status" aria-live="polite">Meow.</div>
+      <div class="particles" id="particles" aria-hidden="true"></div>
+
+      <div class="cat" id="cat" role="img" aria-label="A pixel cat hanging from the screen edge">
+        <img class="cat-frame cat-normal" src="assets/pixel-cat-hanging.png" alt="" draggable="false" />
+        <img class="cat-frame cat-happy" src="assets/pixel-cat-hanging-happy.png" alt="" draggable="false" />
+      </div>
+
+      <div class="pet-zone" id="pet-zone" title="Pet Mochi"></div>
+      <div class="drag-handle" id="drag-zone" title="Drag Mochi to another corner"></div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
