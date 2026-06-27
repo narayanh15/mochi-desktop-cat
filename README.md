@@ -4,7 +4,6 @@
   <h1>Mochi Desktop Cat 🐾</h1>
   <p>A tiny pixel cat that hangs around while you work.</p>
   
-  <img src="assets/desktop-preview.png" width="900" alt="Mochi hanging from the bottom-right edge of a Windows desktop" />
 </div>
 
 ---
@@ -33,7 +32,7 @@ No account. No tracking. No internet required. Just a small pixel cat keeping yo
 
 ## ⬇️ Download for Windows
 
-1. Open the latest release.
+1. Open the [latest release](https://github.com/narayanh15/mochi-desktop-cat/releases/latest)
 2. Under **Assets**, download `Mochi-Desktop-Cat-Setup-0.1.0.exe`.
 3. Run the installer.
 4. Launch **Mochi Desktop Cat** from the desktop shortcut or Start menu.
